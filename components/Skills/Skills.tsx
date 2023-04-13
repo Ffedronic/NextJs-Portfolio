@@ -15,8 +15,8 @@ function Skills() {
             Mes Compétences
           </h1>
         </div>
-        <div className="row justify-content-md-between">
-          <div className="col-md-3">
+        <div className="row">
+          <div className="col-md-4 mb-4 mb-md-0">
             <h5 className="mb-3">Langages</h5>
             <div className="skill mb-4">
               <div className="d-flex justify-content-between">
@@ -144,7 +144,7 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-4 mb-4 mb-md-0">
             <h5 className="mb-3">Frameworks</h5>
             <div className="skill mb-4">
               <div className="d-flex justify-content-between">
@@ -297,7 +297,7 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-4 mb-4 mb-md-0">
             <h5 className="mb-3">Backend</h5>
             <div className="skill mb-4">
               <div className="d-flex justify-content-between">
@@ -432,10 +432,10 @@ function Skills() {
                       className="mr-1"
                       width={40}
                       height={40}
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
+                      src="https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/10/formation-git.png"
                     />
                   </span>
-                  Bootstrap
+                  Git
                 </h6>
                 <h6 className="font-weight-bold">80%</h6>
               </div>
