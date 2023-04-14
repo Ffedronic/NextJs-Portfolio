@@ -84,10 +84,10 @@ function AboutMe() {
                 </dd>
               </div>
               <div className="col-sm-6 py-2">
-                <dt> Address: </dt>
+                <dt> Addresse: </dt>
                 <dd>
                   <span className="text-secondary">
-                    Bâtiment F, Appartement 65, 7 Avenue des Pyrénées
+                    Bâtiment F, Appartement 65, 7 Avenue des Pyrénées, 31240 L'Union
                   </span>
                 </dd>
               </div>

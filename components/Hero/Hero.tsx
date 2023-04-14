@@ -29,8 +29,18 @@ function Hero() {
               Développeur Web, Développeur Front End
             </div>
             <div className="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-              <a href="/documents/felix_fedronic_dev_fullstack.pdf" className="btn btn-outline-light mr-5" download={true}>
+              <a
+                href="/documents/felix_fedronic_dev_fullstack.pdf"
+                className="btn btn-outline-light mr-5"
+                download={true}
+              >
                 Télécharger mon CV
+              </a>
+              <a
+                href="tel:+33644969445"
+                className="btn btn-outline-light bg-danger mr-5 animate__animated animate__shakeY animate__2"
+              >
+                Recrutez Moi
               </a>
             </div>
           </div>

@@ -38,9 +38,6 @@ function NavBar() {
             Contact
           </Link>
         </div>
-        <a href="" className="btn btn-outline-primary d-none d-lg-block">
-          Recrutez Moi
-        </a>
       </div>
     </nav>
   );
