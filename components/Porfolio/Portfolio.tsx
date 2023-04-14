@@ -7,7 +7,7 @@ function Portfolio() {
       <div className="container">
         <div className="position-relative d-flex align-items-center justify-content-center">
           <h1
-            className="display-1 text-uppercase text-white"
+            className="display-2 text-uppercase text-white"
             style={{ WebkitTextStroke: "1px #dee2e6" }}
           >
             GitHub
