@@ -7,6 +7,7 @@ import AboutMe from "@/components/AboutMe/AboutMe";
 import Qualification from "@/components/Qualification/Qualification";
 import Skills from "@/components/Skills/Skills";
 import Portfolio from "@/components/Porfolio/Portfolio";
+import Contact from "@/components/Contact/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,101 +16,21 @@ export default function Home() {
     <>
       <Head>
         <title>Mon Folio</title>
-        <meta name="description" content="Généré par Next.js et Félix Fedronic" />
+        <meta
+          name="description"
+          content="Généré par Next.js et Félix Fedronic"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main
-        data-spy="scroll"
-        data-target=".navbar"
-        data-offset="51"
-      >
-        <NavBar/>
-        <Hero/>
-        <AboutMe/>
-        <Qualification/>
-        <Skills/>
-      <Portfolio/>
-        {/*<!-- Contact Start -->*/}{" "}
-        <div className="container-fluid py-5" id="contact">
-          <div className="container">
-            <div className="position-relative d-flex align-items-center justify-content-center">
-              <h1
-                className="display-1 text-uppercase text-white"
-                style={{ WebkitTextStroke: "1px #dee2e6" }}
-              >
-                Contact
-              </h1>
-              <h1 className="position-absolute text-uppercase text-primary">
-                Contactez Moi
-              </h1>
-            </div>
-            <div className="row justify-content-center">
-              <div className="col-lg-8">
-                <div className="contact-form text-center">
-                  <div id="success"></div>
-                  <form name="sentMessage" id="contactForm" noValidate={true}>
-                    <div className="form-row">
-                      <div className="control-group col-sm-6">
-                        <input
-                          type="text"
-                          className="form-control p-4"
-                          id="name"
-                          placeholder="Your Name"
-                          required={true}
-                          data-validation-required-message="Please enter your name"
-                        />
-                        <p className="help-block text-danger"></p>
-                      </div>
-                      <div className="control-group col-sm-6">
-                        <input
-                          type="email"
-                          className="form-control p-4"
-                          id="email"
-                          placeholder="Your Email"
-                          required={true}
-                          data-validation-required-message="Please enter your email"
-                        />
-                        <p className="help-block text-danger"></p>
-                      </div>
-                    </div>
-                    <div className="control-group">
-                      <input
-                        type="text"
-                        className="form-control p-4"
-                        id="subject"
-                        placeholder="Subject"
-                        required={true}
-                        data-validation-required-message="Please enter a subject"
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                    <div className="control-group">
-                      <textarea
-                        className="form-control py-3 px-4"
-                        rows={5}
-                        id="message"
-                        placeholder="Message"
-                        required={true}
-                        data-validation-required-message="Please enter your message"
-                      ></textarea>
-                      <p className="help-block text-danger"></p>
-                    </div>
-                    <div>
-                      <button
-                        className="btn btn-outline-primary"
-                        type="submit"
-                        id="sendMessageButton"
-                      >
-                        Send Message
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <main data-spy="scroll" data-target=".navbar" data-offset="51">
+        <NavBar />
+        <Hero />
+        <AboutMe />
+        <Qualification />
+        <Skills />
+        <Portfolio />
+       <Contact/>
         {/*<!-- Footer Start -->*/}
         <div className="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
           <div className="container text-center py-5">

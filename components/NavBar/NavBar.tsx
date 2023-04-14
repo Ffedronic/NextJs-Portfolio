@@ -19,7 +19,7 @@ function NavBar() {
       </button>
       <div className="collapse navbar-collapse px-lg-3" id="navbarCollapse">
         <div className="navbar-nav m-auto py-0">
-          <Link href="#home" className="nav-item nav-link active">
+          <Link href="/" className="nav-item nav-link active">
             Accueil
           </Link>
           <Link href="#about" className="nav-item nav-link">

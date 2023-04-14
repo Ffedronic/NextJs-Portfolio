@@ -6,7 +6,7 @@ function Skills() {
       <div className="container">
         <div className="position-relative d-flex align-items-center justify-content-center">
           <h1
-            className="display-1 text-uppercase text-white"
+            className="display-1 text-uppercase text-white text-break"
             style={{ WebkitTextStroke: "1px #dee2e6" }}
           >
             Compétences

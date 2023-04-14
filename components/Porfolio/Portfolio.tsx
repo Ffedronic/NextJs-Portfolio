@@ -20,8 +20,8 @@ function Portfolio() {
           <div className="col-12">
             <Link href={"https://github.com/Ffedronic?tab=repositories"} target="_blank">
               <img
-                height={250}
-                width={250}
+                height={350}
+                width={350}
                 src="https://guillaume-richard.fr/wp-content/uploads/2020/08/Octocat-github.png"
                 alt="github"
               />
