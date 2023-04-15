@@ -1,6 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
+import $ from "jquery";
 
 function Skills() {
+
+  useEffect(() => {
+    $(window).scroll(() => {
+      if (
+        $(".skill").offset()!.top <=
+        $(window).scrollTop()! + $(window).innerHeight()!
+      ) {
+        $(".progress .progress-bar").each(function () {
+          $(this).css("width", $(this).attr("aria-valuenow") + "%");
+        });
+      }
+    });
+  }, []);
+
   return (
     <div className="container-fluid py-5" id="skill">
       <div className="container">
