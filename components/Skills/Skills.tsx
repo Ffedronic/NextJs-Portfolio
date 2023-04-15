@@ -230,7 +230,7 @@ function Skills() {
                 <div
                   className="progress-bar bg-secondary"
                   role="progressbar"
-                  aria-valuenow={85}
+                  aria-valuenow={80}
                   aria-valuemin={0}
                   aria-valuemax={100}
                 ></div>
@@ -383,7 +383,7 @@ function Skills() {
                 <div
                   className="progress-bar bg-secondary"
                   role="progressbar"
-                  aria-valuenow={85}
+                  aria-valuenow={80}
                   aria-valuemin={0}
                   aria-valuemax={100}
                 ></div>
